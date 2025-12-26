@@ -1,8 +1,9 @@
 /// Html Pro
 ///
-/// A new Flutter project.
+/// An enhanced Flutter HTML widget with cached network images,
+/// link long press support, and image URL base path replacement.
 
-library html_pro;
+library;
 
 // Core
 export 'src/cached_image_extension.dart';

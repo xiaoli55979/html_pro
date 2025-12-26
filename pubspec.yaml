@@ -1,7 +1,9 @@
 name: html_pro
-description: "A new Flutter project."
+description: "An enhanced Flutter HTML widget with cached network images, link long press support, and image URL base path replacement."
 version: 0.0.1
-homepage:
+homepage: https://github.com/xiaoli55979/html_pro
+repository: https://github.com/xiaoli55979/html_pro
+issue_tracker: https://github.com/xiaoli55979/html_pro/issues
 
 environment:
   sdk: ">=3.6.1 <4.0.0"
