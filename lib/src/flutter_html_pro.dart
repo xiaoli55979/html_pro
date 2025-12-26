@@ -3,12 +3,12 @@ import 'package:flutter_html/flutter_html.dart';
 import 'package:html/dom.dart' as dom;
 import 'cached_image_extension.dart';
 
-class HtmlPro extends Html {
+class FlutterHtmlPro extends Html {
   /// 长按回调，返回链接和坐标
   final void Function(String?, Map<String, String>, dom.Element?, Offset)?
       onLinkLongPress;
 
-  HtmlPro({
+  FlutterHtmlPro({
     super.key,
     required super.data,
     super.anchorKey,

@@ -133,7 +133,7 @@ class _DomainExampleState extends State<DomainExample> {
           Expanded(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
-              child: HtmlPro(
+              child: FlutterHtmlPro(
                 data: htmlContent,
                 // 设置图片基础URL
                 imageBaseUrl: _currentBaseUrl,

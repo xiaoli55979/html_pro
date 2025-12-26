@@ -113,7 +113,7 @@ class _HtmlProExampleState extends State<HtmlProExample> {
           Expanded(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
-              child: HtmlPro(
+              child: FlutterHtmlPro(
                 data: htmlContent,
                 // 链接点击事件
                 onLinkTap: (url, attributes, element) {
